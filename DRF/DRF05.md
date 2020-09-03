@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Phần 05: giới thiệu về `permissions`/`authorization`
 comments: true

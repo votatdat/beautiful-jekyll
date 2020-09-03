@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Phần 02: tạo API cho Book database
 comments: true

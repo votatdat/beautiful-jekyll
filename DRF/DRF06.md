@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Phần 06: giới thiệu về `User Authentication`
 comments: true

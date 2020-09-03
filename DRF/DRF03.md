@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Phần 03: tạo blog_project, Post model
 comments: true

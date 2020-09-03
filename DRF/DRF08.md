@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Phần 08: giới thiệu về `Viewsets` và `Routers`.
 comments: true

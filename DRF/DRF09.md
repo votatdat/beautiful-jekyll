@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Phần 09: giới thiệu về `Schemas` và `Documentation`.
 comments: true
