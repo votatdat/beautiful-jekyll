@@ -12,18 +12,17 @@ comments: true
 ## 01. Single Inheritance
 Thừa kế (inheritance) là một khái niệm trong lập trình hướng đối tượng OOP.
 <br>Trong class sẽ có các property và method và những điều này sẽ được thừa kế để tạo nên thứ bậc.
-<br>Chúng ta xem hình dưới:
 
+Chúng ta xem hình dưới:
 ![](./PIKs/OOP06_ hierarchy1.PNG)
 
-Dấu mũi tên chỉ mối quan hện `IS-A` (dịch đại khái: là một), chẳng hạn như `Circle` is a `Ellipse` (Cirlce là một Ellipse).
+Dấu mũi tên chỉ mối quan hệ `IS-A` (dịch đại khái: là một), chẳng hạn như `Circle` is a `Ellipse` (Cirlce là một Ellipse). Ngoài ra còn có mối quan hệ `has a` trong composition mà chúng ta chưa đề cập ở đây.
 <br>Các property và method trong các clas có thể được `inherit` (thừa kế), `extend` (mở rộng) hoặc `override` (ghi đè, hình như chỗ khác dịch là nạp chồng).
-<br>Hình bên dưới là một vài thuật ngữ tiếng Anh, mình không dịch ra mà để nguyên.
 
+Hình bên dưới là một vài thuật ngữ tiếng Anh, mình không dịch ra mà để nguyên.
 ![](./PIKs/OOP06_ hierarchy2.PNG)
 
-Ở các ví dụ trên, một class con (children) chỉ thừa kế lại duy nhất một class cha (parent), nên gọi là `single inheritance` (đơn thừa kế), thực tế còn có `multiple inheritance` (đa thừa kế) là class con thừa kế từ nhiều class cha, vấn đề này chúng ta chưa đề cập ở đây.
-
+Ở các ví dụ trên, một class con (children class, derived class) chỉ thừa kế lại duy nhất một class cha (parent class, base class), nên gọi là `single inheritance` (đơn thừa kế), thực tế còn có `multiple inheritance` (đa thừa kế) là class con thừa kế từ nhiều class cha, vấn đề này chúng ta chưa đề cập ở đây.
 ![](./PIKs/OOP06_ hierarchy3.PNG)
 
 Ở hình trên, chúng ta thấy s1 là một Student hoặc s1 là một instance của Student, và do Student thừa kế từ Person nên s1 cũng là một Person, hay s1 cũng là một instance của Person, nhưng s1 không là Teacher.
@@ -76,6 +75,117 @@ True
 True
 ```
 
+Chúng ta thấy rằn khi định nghĩa một class trong Python, thì có vẻ như class không thừa kế từ class nào, chẳng hạn như class dưới:
+
+```python
+>>> class Person():
+...     pass
+...
+```
+
+Nhưng thực tế, mọi class đều thừa kế từ một class có tên `object`.
+
+```python
+>>> isinstance(Person, object)
+True
+>>>
+```
+
+## 02. Object class
+Thực sư khi tạo một class, chúng ta sẽ thừa kế từ object, nhưng chúng ta có thể bỏ nó đi cho gọn:
+
+```python
+>>> class Person(object):
+...     pass
+...
+```
+
+Chính vì lí do trên, mà class nào tạo ra cũng thừa kế nhưng attribute và method có sẵn của object như: `__name__`, `__new__`, `__init__`, `__repr__`, `__hash__`, `__eq__`... Để coi object có sẵn những attribute gì, chúng ta dùng hàm `dir()`.
+
+```python
+>>> p = Person()
+>>> p.__repr__
+<method-wrapper '__repr__' of Person object at 0x0000012AAD348880>
+>>> p.__hash__
+<method-wrapper '__hash__' of Person object at 0x0000012AAD348880>
+>>> p == p
+True
+```
+
+```python
+>>> dir(object)
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', 
+'__format__', '__ge__', '__getattribute__', '__gt__', 
+'__hash__', '__init__', '__init_subclass__', '__le__', 
+'__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', 
+'__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+```
+
+Ở những phần trước, chúng ta cũng đã biết class có kiểu type, nhưng thực ra object, int, str, dict... đều có kiểu type, do đó chúng là những class và cũng phải thừa kế từ object.
+
+```python
+>>> type(Person)
+<class 'type'>
+>>> type(object)
+<class 'type'>
+>>> type(int)
+<class 'type'>
+>>> type(list)
+<class 'type'>
+>>> type(str)
+<class 'type'>
+>>> issubclass(int, object)
+True
+>>> issubclass(dict, object)
+True
+```
+
+Tuy nhiên, không phải chỉ có class mà ngay cả function cũng thừa kế từ object.
+
+```python
+>>> def my_func():
+...     pass
+...
+>>> import types
+>>> types.FunctionType is type(my_func)
+True
+>>> issubclass(types.FunctionType, object)
+True
+>>> isinstance(my_func,  object)
+True
+>>> isinstance(my_func, types.FunctionType)
+True
+```
+
+Khi chúng ta dùng `==` để so sánh 2 instance với nhau mà không cần viết `__eq__` là vì `__eq__` đã được viết trong object.
+
+```python
+>>> p1 = Person()
+>>> p2 = Person()
+>>> p1 is p2, p1 == p2, p1 is p1, p1 == p1
+(False, False, True, True)
+```
+
+Và vì chúng ta không viết `__eq__` nên id của nó trong class và trong object là như nhau:
+
+```python
+>>> id(Person.__eq__)
+1282805080848
+>>> id(object.__eq__)
+1282805080848
+>>> id(Person.__init__) == id(object.__init__)
+True
+```
+Tuy nhiên, khi chúng ta viết `__init__` trong class là chúng ta đã override nó, id sẽ thay đổi:
+
+```python
+>>> class Person:
+...     def __init__(self):
+...             pass
+...
+>>> id(Person.__init__) == id(object.__init__)
+False
+```
 
 
 <br>
