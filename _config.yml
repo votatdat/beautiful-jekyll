@@ -1,25 +1,28 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: My Blog
 
 # Your name to show in the footer
-author: Some Person
+author: Vo Tat Dat
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Home: "https://votatdat.github.io/"
+  Python: "Python/Python_list"
+  Django: "Django/Django_list"
+  DRF: "DRF/DRF_list"
+  #Resources:
+  #- Beautiful Jekyll: "https://beautifuljekyll.com"
+  #- Learn markdown: "https://www.markdowntutorial.com/"
+  #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/Hinhdaidien.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -28,18 +31,17 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
-
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "tatdat13@gmail.com"
+  # facebook: deanattali
+  github: votatdat
+  # twitter: daattali
 #  reddit: yourname
-#  linkedin: daattali
+ linkedin: votatdat
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -71,7 +73,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -187,16 +189,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
@@ -215,7 +215,6 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
