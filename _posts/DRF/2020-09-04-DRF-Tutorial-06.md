@@ -65,7 +65,7 @@ Nhược điểm:
 - `session object` phải được giữ up-to-date, có thể khó khăn với các website lớn.
 - `cookie` vẫn phải được gửi cho mỗi request.
 
-## `Token` Authentication
+## Token Authentication
 Đây là các tiếp cận phổ biến gần đây. 
 <br>Một khi user gửi `credential` dến Server, thì một `token` duy nhất là được tạo ra và lưu trên phía Client như một `cookies` hoặc ở [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 <br>`Token` này sẽ được thêm vào trong header của mỗi HTTP request và phía Server sẽ xác nhận rằng user này có hợp lệ hay không.
