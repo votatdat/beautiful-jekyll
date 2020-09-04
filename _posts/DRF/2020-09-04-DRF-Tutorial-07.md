@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 07
 subtitle: "Phần 07: giới thiệu về User Authentication (tiếp theo)"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

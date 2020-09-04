@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 05
 subtitle: "Phần 05: giới thiệu về permissions/authorization"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

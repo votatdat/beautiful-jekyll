@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial bonus
 subtitle: Customize User
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

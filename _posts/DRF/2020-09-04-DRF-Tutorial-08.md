@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 08
 subtitle: "Phần 08: giới thiệu về Viewsets và Routers"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

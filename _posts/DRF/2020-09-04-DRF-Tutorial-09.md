@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 09
 subtitle: "Phần 09: giới thiệu về Schemas và Documentation"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

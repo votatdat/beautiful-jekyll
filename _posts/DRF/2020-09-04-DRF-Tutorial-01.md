@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 01
 subtitle: "Phần 01: tạo Book model"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

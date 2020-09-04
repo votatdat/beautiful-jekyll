@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 03
 subtitle: "Phần 03: tạo blog_project, Post model"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png

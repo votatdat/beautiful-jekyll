@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRF Tutorial
+title: DRF Tutorial 04
 subtitle: "Phần 04: tạo API cho Post database"
 cover-img: /assets/img/planet.jpg
 thumbnail-img: /assets/img/thumb.png
