@@ -12,17 +12,17 @@ Dưới đây là danh sách các Django REST Framework tutorial mà mình đã 
 ### DRF tutorial (đã hoàn thành)
 Phần này yêu cầu các bạn phải nắm cơ bản Python và Django.
 #### Giới thiệu sơ lược về DRF:
-* [Phần 01](https://votatdat.github.io/DRF/DRF01): tạo Book model, hiển thị database về Book trên template html.
-* [Phần 02](https://votatdat.github.io/DRF/DRF02): tạo API cho Book database.
+* [Phần 01](https://votatdat.github.io/2020-09-04-DRF-Tutorial-01): tạo Book model, hiển thị database về Book trên template html.
+* [Phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02): tạo API cho Book database.
 
 #### Sâu hơn một chút về DRF:
-* [Phần 03](https://votatdat.github.io/DRF/DRF03): tạo blog_project, Post model.
-* [Phần 04](https://votatdat.github.io/DRF/DRF04): tạo API cho Post database.
-* [Phần 05](https://votatdat.github.io/DRF/DRF05): giới thiệu về `permissions`/`authorization`.
-* [Phần 06](https://votatdat.github.io/DRF/DRF06): giới thiệu về `User Authentication`. 
-* [Phần 07](https://votatdat.github.io/DRF/DRF07): giới thiệu về `User Authentication` (tiếp theo).
-* [Phần 08](https://votatdat.github.io/DRF/DRF08): giới thiệu về `Viewsets` và `Routers`. 
-* [Phần 09](https://votatdat.github.io/DRF/DRF09): làm tài liệu cho API sử dụng `Schemas` và `Documentation`.
+* [Phần 03](https://votatdat.github.io/2020-09-04-DRF-Tutorial-03): tạo blog_project, Post model.
+* [Phần 04](https://votatdat.github.io/2020-09-04-DRF-Tutorial-04): tạo API cho Post database.
+* [Phần 05](https://votatdat.github.io/2020-09-04-DRF-Tutorial-05): giới thiệu về `permissions`/`authorization`.
+* [Phần 06](https://votatdat.github.io/2020-09-04-DRF-Tutorial-06): giới thiệu về `User Authentication`. 
+* [Phần 07](https://votatdat.github.io/2020-09-04-DRF-Tutorial-06): giới thiệu về `User Authentication` (tiếp theo).
+* [Phần 08](https://votatdat.github.io/2020-09-04-DRF-Tutorial-08): giới thiệu về `Viewsets` và `Routers`. 
+* [Phần 09](https://votatdat.github.io/2020-09-04-DRF-Tutorial-09): làm tài liệu cho API sử dụng `Schemas` và `Documentation`.
 
 #### Bonus:
-* [Bonus01](https://votatdat.github.io/DRF/DRF_bonus01): cơ bản về customize User.
+* [Bonus01](https://votatdat.github.io/2020-09-04-DRF-Tutorial-bonus01): cơ bản về customize User.

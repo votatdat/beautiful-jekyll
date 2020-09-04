@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: post
 title: DRF
-subtitle: Phần 01: tạo Book model
+subtitle: "Phần 01: tạo Book model"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 
@@ -245,9 +245,4 @@ Chúng ta mở trình duyệt và chạy  http://127.0.0.1:8000/. Kết quả:
 ![](./PIKs/DRF01_result.PNG)
 
 Tới đây là kết thúc phần 01, ở trên là cách tạo và hiện thị database lên trình duyệt.
-<br>[Phần 02](https://votatdat.github.io/DRF/DRF02) sẽ trình bày cách sự dụng DRF căn bản, hiện thị nội dung như trên ở dạng JSON.
-
-
-{% highlight python %}
-
-{% endhighlight %}
+<br>[Phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02) sẽ trình bày cách sự dụng DRF căn bản, hiện thị nội dung như trên ở dạng JSON.
