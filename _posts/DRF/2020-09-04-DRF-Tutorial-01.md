@@ -3,14 +3,20 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 01: tạo Book model"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.jpg
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Tạo virtual enviroment.
+- Tạo Book mode.
+- Tạo Views, URLs, đăng ký admin cho app.
+- Hiển thị database của Book lên file html thông qua templates.
+
+ 
+Danh sách đầy đủ bài học **[ở đây]**(https://votatdat.github.io/DRF) 
+
 
 Chú ý rằng Django dùng để tạo website có chứa nhiều webpage, còn Django REST Framework (DRF) tạo ra web API, là tập hợp các URL chứa các giao thức HTTP trả về JSON.
 <br>Trong phần này, chúng ta sẽ tạo một `library` site, giới thiệu về cách hoạt động của DRF.
@@ -73,7 +79,7 @@ python manage.py runserver
 
 Chúng ta mở trình duyệt, gõ http://127.0.0.1:8000/ để xem project đã ok hay chưa.
 
-## Tạo app `books`
+## Tạo app books
 Tiếp theo chúng ta tạo một app có tên là `books`:
 
 {% highlight python %}
