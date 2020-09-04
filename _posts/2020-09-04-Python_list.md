@@ -2,6 +2,7 @@
 layout: page
 title: Python
 subtitle: Notes about Python
+comments: false
 ---
 
 Dưới đây là danh sách các Python tutorial mà mình đã đọc/học/xem và mình note lại ở đây.
