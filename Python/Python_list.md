@@ -16,4 +16,5 @@ Dưới đây là danh sách các Python tutorial mà mình đã đọc/học/xe
 * [Phần 03](https://votatdat.github.io/Python/OOP03): Giới thiệu về Polymorphism và special methods (phần 1).
 * [Phần 04](https://votatdat.github.io/Python/OOP04): Giới thiệu về Polymorphism và special methods (phần 2). (đang viết)
 * [Phần 05](https://votatdat.github.io/Python/OOP05): Giới thiệu về Polymorphism và special methods (phần 3). ((đang viết)
-* [Phần 06](https://votatdat.github.io/Python/OOP06): Giới thiệu về Single Inheritance (phần 1). (đang viết)
+* [Phần 06](https://votatdat.github.io/Python/OOP06): Giới thiệu về Single Inheritance (phần 1).
+* [Phần 07](https://votatdat.github.io/Python/OOP07): Giới thiệu về Single Inheritance (phần 2). (đang viết)
