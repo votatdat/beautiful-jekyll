@@ -150,7 +150,7 @@ Chúng ta mở trình duyệt, vào http://127.0.0.1:8000/admin và login với 
 
 Chúng ta sẽ thấy:
 
-![](./PIKs/DRF01_book.PNG)
+![](/_posts/DRF/PIKs/DRF01_book.PNG)
 
 Sau đó chúng ta sẽ thêm vào 1 hay vài cuốn sách, ví dụ như ở dưới:
 
