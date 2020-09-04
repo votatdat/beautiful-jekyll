@@ -3,14 +3,15 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 08: giới thiệu về Viewsets và Routers"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Giới thiệu về ViewSet và Router để tiết kiệm code.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 [Viewsets](https://www.django-rest-framework.org/api-guide/viewsets/) và [routers](https://www.django-rest-framework.org/api-guide/routers/) là những tool mà có thể giúp chúng ta viết API nhanh hơn, do một viewset có thể thay thế cho nhiều view và router có thể tự tạo URLs.
 
@@ -181,4 +182,4 @@ Lưu ý , chúng ta xem http://127.0.0.1:8000/api/v1/users/2
 Chúng ta có thể customize lại viewset nhưng chúng ta thấy được sự đánh đổi của Viewset ở đây, viết ít code hơn, nhưng phải viết nhiều cái khác để config theo ý mình.
 <br>Bạn đầu chúng ta nên viết như bình thường, khi nào thấy API nhiều lên, có sự lặp lại nhiều thì hãy sử dụng ViewSet.
 
-Phần này tới đây là hết, [phần 09](https://votatdat.github.io/DRF/DRF09) sẽ giới thiệu về việc làm tài liệu cho API dùng `Schemas` và `Documentation`.
+Phần này tới đây là hết, [phần 09](https://votatdat.github.io/2020-09-04-DRF-Tutorial-08) sẽ giới thiệu về việc làm tài liệu cho API dùng `Schemas` và `Documentation`.

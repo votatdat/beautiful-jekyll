@@ -3,17 +3,18 @@ layout: page
 title: DRF Tutorial
 subtitle: "Phần 04: tạo API cho Post database"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Tạo API cho Post model.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 ## Cài đặt
-Như ở [phần 02](https://votatdat.github.io/DRF/DRF02), chúng ta thấy để tạo một API thì qui trình gồm tạo 3 files:
+Như ở [phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02), chúng ta thấy để tạo một API thì qui trình gồm tạo 3 files:
 * `serializers.py`: để chuyển database thành JSON.
 * `views.py`: hơi giống với views.py của Django truyền thống.
 * `urls.py`: để định hướng url.
@@ -75,7 +76,7 @@ class PostSerializer(serializers.ModelSerializer):
 Ở trên, chúng ta đã bỏ `update_at` field.
 
 ## Views
-Ở ví dụ [phần 02](https://votatdat.github.io/DRF/DRF02) chúng ta đã sử dụng `ListAPIView`, cái này chỉ tạo ra một read-only endpoint.
+Ở ví dụ [phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02) chúng ta đã sử dụng `ListAPIView`, cái này chỉ tạo ra một read-only endpoint.
 <br>Có View Class như sau:
 * `CreateAPIView`: dùng để tạo (**create-only**), cung cấp `post` method.
 * `ListAPIView`: dùng để liệt kê danh sách các mục (**read-only**), cung cấp `get` method.
@@ -109,6 +110,7 @@ class PostDetail(generics.RetrieveUpdateDestroyAPIView):
 	serializer_class = PostSerializer
 {% endhighlight %}
 
+<br>
 ## URLs
 Đầu tiên, chúng ta thêm vào `urls.py` ở project:
 
@@ -145,6 +147,7 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
+<br>
 ## Kết quả
 
 Chúng ta runserver và vào đường link http://127.0.0.1:8000/api/v1/ để thấy kết quả.
@@ -166,7 +169,7 @@ python manage.py runserver
 Ở đây, có thêm `PUT` và `PATCH` để edit post, có thêm `DELETE` để xóa bài viết, nhưng không có `POST`.
 
 Phần này tới đây là kết thúc, chúng ta thấy rằng các API có thể được xem, cập nhật, xóa mà không cần login.
-<br>Điều này là không thực tế, [phần 05](https://votatdat.github.io/DRF/DRF05) sẽ giới thiệu về `permissions`.
+<br>Điều này là không thực tế, [phần 05](https://votatdat.github.io/2020-09-04-DRF-Tutorial-05) sẽ giới thiệu về `permissions`.
 
 {% highlight python %}
 

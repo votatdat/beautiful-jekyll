@@ -3,14 +3,16 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 02: tạo API cho Book database"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Giới thiệu tạo API thông qua 3 bước: serializers, views và urls.
+- Tạo API cho Book model.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 Ở [phần 01](https://votatdat.github.io/DRF/DRF01) chúng ta đã xây dựng Book model, hiển thị database lên được template html.
 <br>Nhưng khi hiển thị như vậy thì các front-end framework sẽ không xử lý thông tin được, do đó chúng ta cần API.
@@ -66,6 +68,7 @@ INSTALLED_APPS = [
 ]
 {% endhighlight %}
 
+<br>
 ## Serializers
 `Serializer` sẽ chuyển đổi dữ liệu thành các dạng dễ sử dụng trên Internet, chẳng hạn như JSON.
 <br>Và để làm việc đó, chúng ta cần một file `serializers.py` trong folder `api`.
@@ -149,6 +152,7 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
+<br>
 ## Kết quả
 Các bước chuẩn bị ở trên đã xong, chúng ta chạy thử.
 
@@ -175,9 +179,5 @@ Hoặc mở trình duyệt, gõ  http://127.0.0.1:8000/api/, kết quả:
 
 
 Như vậy, chúng ta đã tạo được một API đơn giản, sử dụng REST Framework.
-<br>[Phần 01](https://votatdat.github.io/DRF/DRF01) và [phần 02](https://votatdat.github.io/DRF/DRF02) là một ví dụ cơ bản về API của REST Framework.
-<br>[Phần 03](https://votatdat.github.io/DRF/DRF03) trở đi là một ví dụ phức tạp hơn.
-
-{% highlight python %}
-
-{% endhighlight %}
+<br>[Phần 01](https://votatdat.github.io/2020-09-04-DRF-Tutorial-01) và [phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02) là một ví dụ cơ bản về API của REST Framework.
+<br>[Phần 03](https://votatdat.github.io/2020-09-04-DRF-Tutorial-03) trở đi là một ví dụ phức tạp hơn.

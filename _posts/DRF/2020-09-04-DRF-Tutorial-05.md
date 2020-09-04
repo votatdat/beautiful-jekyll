@@ -3,14 +3,17 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 05: giới thiệu về permissions/authorization"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Khai báo Permission ở settings.py.
+- Điểm qua 4 mức permission: AllowAny/IsAuthenticated/IsAdminUser/IsAuthenticatedOrReadOnly
+- Điểm qua 3 loại permission: project/views/custom permission.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 Ở phần trước, chúng ta đã tạo một API cho Post model, nhưng khi có được đường link thì bất kỳ ai cũng có thể xem bài, post bài, edit hay xóa bài.
 <br>Trong thực tế, anonymous chỉ có thể xem bài, hoặc có khi phải login mới được xem bài.
@@ -49,7 +52,7 @@ urlpatterns = [
 ![](/Piks/DRF/DRF05_inout.PNG)
 
 ## Project-level Permissions
-Ở [phần 04](https://votatdat.github.io/DRF/DRF04), trong file `settings.py`, chúng ta đã thêm đoạn code dưới:
+Ở [Phần 04](https://votatdat.github.io/2020-09-04-DRF-Tutorial-04), trong file `settings.py`, chúng ta đã thêm đoạn code dưới:
 
 {% highlight python %}
 # blog_project/settings.py
@@ -177,8 +180,4 @@ Các bạn có thể đọc thêm về permission trên trang chủ [ở đây](
 Các bạn runserver, vô lại trang http://127.0.0.1:8000/api/v1/ và thử nhé.
 <br>
 <br>
-<br>Phần này tới đây là hết, [phần 06](https://votatdat.github.io/DRF/DRF06) chúng ta sẽ tìm hiểu về `User Authentication`.
-
-{% highlight python %}
-
-{% endhighlight %}
+<br>Phần này tới đây là hết, [phần 06](https://votatdat.github.io/2020-09-04-DRF-Tutorial-06) chúng ta sẽ tìm hiểu về `User Authentication`.

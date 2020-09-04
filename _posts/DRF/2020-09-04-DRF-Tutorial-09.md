@@ -3,14 +3,15 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 09: giới thiệu về Schemas và Documentation"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Giới thiệu về Schemas và Documentation để làm tài liệu cho API.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 Cho tới nay, chúng ta cũng đã xây dựng kha khá API endpoint:
 
@@ -214,4 +215,4 @@ SWAGGER_SETTINGS = {
 {% endhighlight %}
 
 Tutorial tới đây là hết, mình hi vọng nó sẽ giúp ích được cho các bạn mới làm quen với Django REST Framework.
-Cảm ơn các bạn dã ghé ngang và đọc hết tutorial này.
+<br>Cảm ơn các bạn dã ghé ngang và đọc hết tutorial này.

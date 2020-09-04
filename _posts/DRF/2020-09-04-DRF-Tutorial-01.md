@@ -10,11 +10,10 @@ tags: [Python, Django, DRF]
 
 Nội dụng phần này:
 - Tạo virtual enviroment.
-- Tạo Book mode.
+- Tạo Book model.
 - Tạo Views, URLs, đăng ký admin cho app.
 - Hiển thị database của Book lên file html thông qua templates.
 
- 
 Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 

@@ -3,16 +3,16 @@ layout: post
 title: DRF Tutorial
 subtitle: Customize User
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
-tags: [Python, Django, DRF]
+tags: [Python, Django]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Phần này mình sẽ giới thiệu cơ bản cách customize một User.
 
-Ở phần [phần 03](https://votatdat.github.io/DRF/DRF03) chúng ta đã tạo một model Post như ở dưới:
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+
+Ở phần [phần 09](https://votatdat.github.io/2020-09-04-DRF-Tutorial-08) chúng ta đã tạo một model Post như ở dưới:
 
 {% highlight python %}
 # posts/models.py

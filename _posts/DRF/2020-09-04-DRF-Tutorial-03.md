@@ -3,18 +3,21 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 03: tạo blog_project, Post model"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Cài đặt virtual enviroment.
+- Tạo Post model.
+- Viết TestCase cơ bản cho Post model.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 Để làm quen với REST Framework, các bạn có thể coi lại 2 phần trước: 
-* [phần 01](https://votatdat.github.io/DRF/DRF01) 
-* [phần 02](https://votatdat.github.io/DRF/DRF02) 
+* [Phần 01](https://votatdat.github.io/2020-09-04-DRF-Tutorial-01): tạo Book model, hiển thị database về Book trên template html.
+* [Phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02): tạo API cho Book database.
 
 Từ phần này trở đi, chúng ta sẽ tạo một Blog API, có `user`, `permissions`, cho phép full `CRUD (Create-Read-Update-Delete)`.
 
@@ -78,7 +81,7 @@ class Post(models.Model):
 		return self.title
 {% endhighlight %}
 
-Ở trên, chúng ta đã tạo một class Post, field `author` chúng ta sử dụng User có sẵn của Django, trong thực tế nên custom lại User, có thể xem [ở đây](https://votatdat.github.io/DRF/DRF_bonus01).
+Ở trên, chúng ta đã tạo một class Post, field `author` chúng ta sử dụng User có sẵn của Django, trong thực tế nên custom lại User, có thể xem [ở đây](https://votatdat.github.io/2020-09-04-DRF-Tutorial-bonus01).
 <br>`__str__` để hiện thị cho model ở Django Admin, khi vào trang administrator, các post sẽ hiện theo `title`.
 
 Chúng ta đăng ký `Post` ở `admin.py`:
@@ -173,9 +176,4 @@ Ran 1 test in 0.119s
 <br>Destroying test database for alias 'default'...
 
 Ở phần này, chúng ta đã tạo `Post` model, và test thử OK.
-<br>[phần 04](https://votatdat.github.io/DRF/DRF04)  sẽ tạo API cho model này.
-
-
-{% highlight python %}
-
-{% endhighlight %}
+<br>[Phần 04](https://votatdat.github.io/2020-09-04-DRF-Tutorial-04)  sẽ tạo API cho model này.

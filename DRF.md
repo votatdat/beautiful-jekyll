@@ -20,7 +20,7 @@ Phần này yêu cầu các bạn phải nắm cơ bản Python và Django.
 * [Phần 04](https://votatdat.github.io/2020-09-04-DRF-Tutorial-04): tạo API cho Post database.
 * [Phần 05](https://votatdat.github.io/2020-09-04-DRF-Tutorial-05): giới thiệu về `permissions`/`authorization`.
 * [Phần 06](https://votatdat.github.io/2020-09-04-DRF-Tutorial-06): giới thiệu về `User Authentication`. 
-* [Phần 07](https://votatdat.github.io/2020-09-04-DRF-Tutorial-06): giới thiệu về `User Authentication` (tiếp theo).
+* [Phần 07](https://votatdat.github.io/2020-09-04-DRF-Tutorial-07): giới thiệu về `User Authentication` (tiếp theo).
 * [Phần 08](https://votatdat.github.io/2020-09-04-DRF-Tutorial-08): giới thiệu về `Viewsets` và `Routers`. 
 * [Phần 09](https://votatdat.github.io/2020-09-04-DRF-Tutorial-09): làm tài liệu cho API sử dụng `Schemas` và `Documentation`.
 

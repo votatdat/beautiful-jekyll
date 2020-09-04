@@ -3,14 +3,16 @@ layout: post
 title: DRF Tutorial
 subtitle: "Phần 06: giới thiệu về User Authentication"
 cover-img: /assets/img/planet.jpg
-thumbnail-img: /assets/img/thum.jpg
+thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/planet.jpg
 tags: [Python, Django, DRF]
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF) 
-<br>
-<br>
+Nội dụng phần này:
+- Giới thiệu các loại authentication.
+- Thiết lập authentication trong settings.py.
+
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
 
 Ở phần trước, chúng ta đã tìm hiểu về `permission` hay là `authorization`. 
 <br>Ở phần này, chúng ta tìm hiểu `authentication` là qui trình mà cho phép người dùng có thể đăng ký, login và logout.
@@ -144,7 +146,7 @@ Khi nhấn vào Tokens, chúng ta sẽ không thấy có token nào, vì app nà
 ![](/Piks/DRF/DRF06_token2.PNG)
 
 
-Phần này tạm thời tới đây, chi tiết hơn phần `Authentication` sẽ ở [phần 07](https://votatdat.github.io/DRF/DRF07).
+Phần này tạm thời tới đây, chi tiết hơn phần `Authentication` sẽ ở [Phần 07](https://votatdat.github.io/2020-09-04-DRF-Tutorial-07).
 
 {% highlight python %}
 
