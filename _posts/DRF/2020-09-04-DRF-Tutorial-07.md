@@ -1,11 +1,10 @@
 ---
 layout: post
 title: DRF
-subtitle: Phần 07: giới thiệu về `User Authentication` (tiếp theo)
-comments: true
+subtitle: "Phần 07: giới thiệu về User Authentication (tiếp theo)"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

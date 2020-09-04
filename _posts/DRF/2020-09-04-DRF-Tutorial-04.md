@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: page
 title: DRF
-subtitle: Phần 04: tạo API cho Post database
-comments: true
+subtitle: "Phần 04: tạo API cho Post database"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

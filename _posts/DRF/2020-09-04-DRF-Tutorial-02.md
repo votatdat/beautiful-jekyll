@@ -1,11 +1,10 @@
 ---
 layout: post
 title: DRF
-subtitle: Phần 02: tạo API cho Book database
-comments: true
+subtitle: "Phần 02: tạo API cho Book database"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

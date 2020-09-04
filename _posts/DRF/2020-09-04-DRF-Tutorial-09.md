@@ -1,11 +1,10 @@
 ---
 layout: post
 title: DRF
-subtitle: Phần 09: giới thiệu về `Schemas` và `Documentation`.
-comments: true
+subtitle: "Phần 09: giới thiệu về Schemas và Documentation"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

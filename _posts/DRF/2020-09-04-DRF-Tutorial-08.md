@@ -1,11 +1,10 @@
 ---
 layout: post
 title: DRF
-subtitle: Phần 08: giới thiệu về `Viewsets` và `Routers`.
-comments: true
+subtitle: "Phần 08: giới thiệu về Viewsets và Routers"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

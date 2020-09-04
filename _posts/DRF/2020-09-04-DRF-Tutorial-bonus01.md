@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: post
 title: DRF
 subtitle: Customize User
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

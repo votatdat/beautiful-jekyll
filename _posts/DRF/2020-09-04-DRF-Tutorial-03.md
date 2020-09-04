@@ -1,11 +1,10 @@
 ---
 layout: post
 title: DRF
-subtitle: Phần 03: tạo blog_project, Post model
-comments: true
+subtitle: "Phần 03: tạo blog_project, Post model"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 

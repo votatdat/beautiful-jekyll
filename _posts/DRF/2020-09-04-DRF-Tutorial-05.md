@@ -1,11 +1,10 @@
 ---
 layout: post
 title: DRF
-subtitle: Phần 05: giới thiệu về `permissions`/`authorization`
-comments: true
+subtitle: "Phần 05: giới thiệu về `permissions`/`authorization`"
 ---
 
-* [List đầy đủ](https://votatdat.github.io/DRF/DRF_list) 
+* [List đầy đủ](https://votatdat.github.io/DRF) 
 <br>
 <br>
 
