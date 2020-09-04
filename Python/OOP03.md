@@ -402,4 +402,4 @@ Chúng ta import vào rồi test thử:
 Chúng ta thấy rằng id của f không đổi.
 
 Phần này tới đây là kết thúc, chúng ta tiếp tục với [phần 04](https://votatdat.github.io/Python/OOP04).
-<br>[Phần 04](https://votatdat.github.io/Python/OOP04) và [phần 05](https://votatdat.github.io/Python/OOP05) đi sâu vào các `magic method` nên mình tạm thời nếu lên, chưa có code ví dụ.
+<br>[Phần 04](https://votatdat.github.io/Python/OOP04) và [phần 05](https://votatdat.github.io/Python/OOP05) vẫn tiếp tục đi vào các `magic method` nên mình tạm thời nêu lên, chưa có code ví dụ.
