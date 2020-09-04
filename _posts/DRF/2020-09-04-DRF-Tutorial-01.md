@@ -154,11 +154,11 @@ Chúng ta sẽ thấy:
 
 Sau đó chúng ta sẽ thêm vào 1 hay vài cuốn sách, ví dụ như ở dưới:
 
-![](./PIKs/DRF01_addbook.PNG)
+![](/Piks/DRF/DRF01_addbook.PNG)
 
-![](./PIKs/DRF01_addbook2.PNG)
+![](/Piks/DRF/DRF01_addbook2.PNG)
 
-![](./PIKs/DRF01_addbook3.PNG)
+![](/Piks/DRF/DRF01_addbook3.PNG)
 
 ## Views
 `views.py` sẽ xử lý việc các model được hiển thị thế nào. Ở đây chúng ta sẽ sử dụng class-based `ListView` ở `generic`.
@@ -246,7 +246,7 @@ python manage.py runserver
 
 Chúng ta mở trình duyệt và chạy  http://127.0.0.1:8000/. Kết quả:
 
-![](./PIKs/DRF01_result.PNG)
+![](/Piks/DRF/DRF01_result.PNG)
 
 Tới đây là kết thúc phần 01, ở trên là cách tạo và hiện thị database lên trình duyệt.
 <br>[Phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02) sẽ trình bày cách sự dụng DRF căn bản, hiện thị nội dung như trên ở dạng JSON.
