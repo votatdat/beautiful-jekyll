@@ -1,4 +1,4 @@
-{%- if site.fb_comment_id -%}
+{% if site.fb_comment_id %}
 <div class="comments">
   <div id="fb-root"></div>
   <script>
@@ -8,7 +8,8 @@
       if (d.getElementById(id)) return;
       js = d.createElement(s);
       js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId={{ site.fb_comment_id }}&autoLogAppEvents=1";
+      js.src =
+        "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId={{ site.fb_comment_id }}&autoLogAppEvents=1";
       fjs.parentNode.insertBefore(js, fjs);
     })(document, "script", "facebook-jssdk");
   </script>
@@ -23,4 +24,4 @@
     Facebook.</noscript
   >
 </div>
-{%- endif -%}
+{% endif %}
