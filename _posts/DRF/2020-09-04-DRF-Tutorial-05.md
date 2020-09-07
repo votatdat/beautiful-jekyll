@@ -13,7 +13,7 @@ Nội dụng phần này:
 - Điểm qua 4 mức permission: AllowAny/IsAuthenticated/IsAdminUser/IsAuthenticatedOrReadOnly
 - Điểm qua 3 loại permission: project/views/custom permission.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 Ở phần trước, chúng ta đã tạo một API cho Post model, nhưng khi có được đường link thì bất kỳ ai cũng có thể xem bài, post bài, edit hay xóa bài.
 <br>Trong thực tế, anonymous chỉ có thể xem bài, hoặc có khi phải login mới được xem bài.

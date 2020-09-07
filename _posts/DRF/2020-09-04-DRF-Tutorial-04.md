@@ -11,7 +11,7 @@ tags: [Python, Django, DRF]
 Nội dụng phần này:
 - Tạo API cho Post model.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 ## Cài đặt
 Như ở [phần 02](https://votatdat.github.io/2020-09-04-DRF-Tutorial-02), chúng ta thấy để tạo một API thì qui trình gồm tạo 3 files:

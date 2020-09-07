@@ -11,7 +11,7 @@ tags: [Python, Django, DRF]
 Nội dụng phần này:
 - Giới thiệu về ViewSet và Router để tiết kiệm code.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 [Viewsets](https://www.django-rest-framework.org/api-guide/viewsets/) và [routers](https://www.django-rest-framework.org/api-guide/routers/) là những tool mà có thể giúp chúng ta viết API nhanh hơn, do một viewset có thể thay thế cho nhiều view và router có thể tự tạo URLs.
 

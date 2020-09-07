@@ -13,7 +13,7 @@ Nội dụng phần này:
 - Giới thiệu `django-rest-auth`: login, logout, reset password API.
 - Giới thiệu `django-allauth`: user registration API.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 ## User API
 Ở phần trước, chúng ta đã thêm một url ở file blog_project/urls.py để có thể login, logout ngày ở http://127.0.0.1:8000/api/v1/ mà không cần vào lại trang admin.

@@ -10,7 +10,7 @@ tags: [Python, Django]
 
 Phần này mình sẽ giới thiệu cơ bản cách customize một User.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 Ở phần [phần 09](https://votatdat.github.io/2020-09-04-DRF-Tutorial-08) chúng ta đã tạo một model Post như ở dưới:
 

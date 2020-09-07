@@ -14,7 +14,7 @@ Nội dụng phần này:
 - Tạo Views, URLs, đăng ký admin cho app.
 - Hiển thị database của Book lên file html thông qua templates.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 
 Chú ý rằng Django dùng để tạo website có chứa nhiều webpage, còn Django REST Framework (DRF) tạo ra web API, là tập hợp các URL chứa các giao thức HTTP trả về JSON.

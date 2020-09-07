@@ -13,7 +13,7 @@ Nội dụng phần này:
 - Tạo Post model.
 - Viết TestCase cơ bản cho Post model.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 Để làm quen với REST Framework, các bạn có thể coi lại 2 phần trước: 
 * [Phần 01](https://votatdat.github.io/2020-09-04-DRF-Tutorial-01): tạo Book model, hiển thị database về Book trên template html.

@@ -11,7 +11,7 @@ tags: [Python, Django, DRF]
 Nội dụng phần này:
 - Giới thiệu về Schemas và Documentation để làm tài liệu cho API.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 Cho tới nay, chúng ta cũng đã xây dựng kha khá API endpoint:
 

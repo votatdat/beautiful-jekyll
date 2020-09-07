@@ -12,7 +12,7 @@ Nội dụng phần này:
 - Giới thiệu các loại authentication.
 - Thiết lập authentication trong settings.py.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 Ở phần trước, chúng ta đã tìm hiểu về `permission` hay là `authorization`. 
 <br>Ở phần này, chúng ta tìm hiểu `authentication` là qui trình mà cho phép người dùng có thể đăng ký, login và logout.

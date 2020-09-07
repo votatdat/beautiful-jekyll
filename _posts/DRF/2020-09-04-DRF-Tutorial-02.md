@@ -12,7 +12,7 @@ Nội dụng phần này:
 - Giới thiệu tạo API thông qua 3 bước: serializers, views và urls.
 - Tạo API cho Book model.
 
-Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/DRF)**.
+Danh sách đầy đủ bài học **[ở đây](https://votatdat.github.io/list/DRF)**.
 
 Ở [phần 01](https://votatdat.github.io/DRF/DRF01) chúng ta đã xây dựng Book model, hiển thị database lên được template html.
 <br>Nhưng khi hiển thị như vậy thì các front-end framework sẽ không xử lý thông tin được, do đó chúng ta cần API.
