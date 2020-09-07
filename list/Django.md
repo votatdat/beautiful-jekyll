@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Django
-subtitle: Notes about Django
+subtitle: Django Tutorial
 ---
 
 Dưới đây là danh sách các Django tutorial mà mình đã đọc/học/xem và mình note lại ở đây.
@@ -9,8 +9,7 @@ Dưới đây là danh sách các Django tutorial mà mình đã đọc/học/xe
 <br>Hoặc nó có thể giúp ích cho một vài bạn yếu tiếng Anh, gặp khó khăn khi đọc tài liệu tiếng Anh.
 <br>Cảm ơn các bạn đã ghé qua.
 
-### Django 3 by Example (on progress)
-#### Building a Blog Application:
-* [Phần 01](https://votatdat.github.io/Django/D3bX01) (đang viết)
-* [Phần 02](https://votatdat.github.io/Django/D3bX02) (chưa viết)
-* [Phần 03](https://votatdat.github.io/Django/D3bX03) (chưa viết)
+### Django Tutorial (on progress)
+* [Phần 01](https://votatdat.github.io/2020-09-07-DjangoTutor01) (đang viết)
+* [Phần 02](https://votatdat.github.io/2020-09-07-DjangoTutor02) (chưa viết)
+* [Phần 03](https://votatdat.github.io/2020-09-07-DjangoTutor03) (chưa viết)

@@ -1,0 +1,158 @@
+---
+layout: post
+title: Django tutorial 01
+subtitle: "Phần 01: Giới thiệu về Docker"
+cover-img: /assets/img/planet.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/planet.jpg
+tags: [Python, Django]
+---
+
+Nội dung phần này:
+<ul>
+  <li>(sẽ cập nhật sau)</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<br />Danh sách đầy đủ bài học
+<strong> <a href="https://votatdat.github.io/list/Django">ở đây</a></strong>.
+<br />
+<br />
+Để sử dụng Docker thì trước tiên phải đăng ký một tài khoản trên 
+<a href="https://hub.docker.com/signup">trang Docker</a>. Rồi sau đó download về cài. 
+<br>Muốn ổn định thì cài bản Stable, còn muốn trả nghiệm thì có thể cài bản Edge.
+<br>Sau khi cài xong thì có thể check version bằng command line:
+{% highlight shell %}
+$ docker --version
+
+Docker version 19.03.12, build 48a66213fe
+{% endhighlight %}
+
+Docker có ẵn một image gọi là "Hello, World", chúng ta có thể chạy thử:
+{% highlight shell %}
+$ docker run hello-world
+
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+0e03bdcc26d7: Pull complete
+Digest: sha256:7f0a9f93b4aa3022c3a4c147a449bf11e0941a1fd0bf4a8e6c9408b2600777c5
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.    (amd64)
+ 3. The Docker daemon created a new container from that image which runs 
+the
+    executable that produces the output you are currently reading.       
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:   
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:        
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+{% endhighlight %}
+
+Hoặc có thể chạy thử Ubuntu container:
+
+{% highlight shell %}
+$ docker run -it ubuntu bash
+
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+54ee1f796a1e: Pull complete
+f7bfea53ad12: Pull complete
+46d371e02073: Pull complete
+b66c17bbf772: Pull complete
+Digest: sha256:31dfb10d52ce76c5ca0aa19d10b3e6424b830729e32a89a7c6eee2cda2be67a5
+Status: Downloaded newer image for ubuntu:latest
+root@9ce4f6f61995:/#
+{% endhighlight %}
+
+Chúng ta có thể kiểm tra Docker với lệnh <mark>docker info</mark>.
+{% highlight shell %}
+$ docker info
+
+Client:
+ Debug Mode: false
+
+Server:
+ Containers: 2
+  Running: 0
+  Paused: 0
+  Stopped: 2
+ Images: 2
+ Server Version: 19.03.12  
+ Storage Driver: overlay2  
+ .....
+{% endhighlight %}
+
+Tới đây coi như Docker đã OK.
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
+
+
+
+
+{% highlight python %}
+
+{% endhighlight %}
