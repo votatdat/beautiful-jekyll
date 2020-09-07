@@ -10,9 +10,9 @@ author: Vo Tat Dat
 
 navbar-links:
   Home: "https://votatdat.github.io/"
-  Python: "Python"
-  Django: "Django"
-  DRF: "DRF"
+  Python: "list/Python"
+  Django: "list/Django"
+  DRF: "list/DRF"
   #Resources:
   #- Beautiful Jekyll: "https://beautifuljekyll.com"
   #- Learn markdown: "https://www.markdowntutorial.com/"
