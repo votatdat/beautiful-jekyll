@@ -10,6 +10,7 @@ Dưới đây là danh sách các Django tutorial mà mình đã đọc/học/xe
 <br>Cảm ơn các bạn đã ghé qua.
 
 ### Django Tutorial (on progress)
-* [Phần 01](https://votatdat.github.io/2020-09-07-DjangoTutor01) (đang viết)
-* [Phần 02](https://votatdat.github.io/2020-09-07-DjangoTutor02) (chưa viết)
-* [Phần 03](https://votatdat.github.io/2020-09-07-DjangoTutor03) (chưa viết)
+Tutorial này cũng không hẳn là mới toanh, các bạn nên biết chút xíu về Python, Django, Docker, PostgreSQL nhé.
+* [Phần 01](https://votatdat.github.io/2020-09-10-Django-Tutorial-01) (đang viết)
+* [Phần 02](https://votatdat.github.io/2020-09-10-Django-Tutorial-02) (chưa viết)
+* [Phần 03](https://votatdat.github.io/2020-09-10-Django-Tutorial-03) (chưa viết)
