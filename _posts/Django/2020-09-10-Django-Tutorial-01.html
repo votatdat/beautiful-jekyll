@@ -25,6 +25,7 @@ hiếm khi nào người ta sử dụng SQLite, người ta hay sử dụng Post
 <br>(Theo mình quan sát thấy thì Python dev thích PostgreSQL, Java dev thì thích MySQL)
 <br>Tutorial này sẽ tạo Docker có chứa PostgreSQL, giới thiệu để đi tiếp cho các tutorial sau.
 <br>
+<br>
 <h3>Cài đặt</h3>
 <br>
 {% highlight python %}
@@ -45,7 +46,8 @@ $ pipenv shell # Vào môi trường
 <br>
 Sau đó, bật trình duyệt vào trang http://127.0.0.1:8000/ thấy dòng "The install worked successfully! Congratulations!"
 là OK.
-<br> Chúng ta ấn Ctrl + C để để dừng, và dùng lệnh <strong>ls</strong> để xem các file và directory.
+<br>Chúng ta ấn Ctrl + C để để dừng, và dùng lệnh <strong>ls</strong> để xem các file và directory.
+<br>
 <br>
 {% highlight python %}
 (postresql) $ ls
@@ -56,11 +58,13 @@ Pipfile Pipfile.lock db.sqlite3 manage.py postgresql_project
 Vậy là chúng ta đã tạo một project chạy biệt lập trong môi trường ảo dùng pipenv, 
 tiếp theo chúng ta tìm hiểu về Docker.
 <br>
+<br>
 <h3>Docker</h3>
 <mark>DockerImage</mark> như một blueprint/pattern của project, còn <mark>Docker container</mark> là một 
 ví dụ/phiên bản của Image đó, <mark>Docker host</mark>  thì như là OS. Có thể có nhiều container 
 chạy dưới cùng một host.
 <br>Bây giờ, chúng ta sẽ thoát ra và tạo <mark>Dockerfile</mark> và <mark>docker-compose.yml</mark>.
+<br>
 <br>
 {% highlight python %}
 (postgresql) $ exit
@@ -88,7 +92,6 @@ RUN pip install pipenv && pipenv install --system
 # Copy project
 COPY . /code/
 {% endhighlight %}
-<br>
 <br>Mình sẽ giải thích sơ sơ nội dung file Docker file ở bên dưới:
 <ul>
   <li>Câu lệnh đầu tiên luôn luôn là <strong>FROM</strong>, để cho biết base image mà 
